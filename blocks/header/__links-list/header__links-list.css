@@ -6,11 +6,10 @@
     line-height: 28px;
     padding: 0 0 0.3em;
     width: 3.3em;
-    color: #fff;
     list-style-type: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
 
     .header__links-list {
         font-size: 18px;
