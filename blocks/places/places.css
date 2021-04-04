@@ -1,5 +1,6 @@
 .places {
     margin-top: 64px;
+    display: -ms-grid;
     display: grid;
     gap: 50px;
 }

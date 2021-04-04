@@ -1,25 +1,50 @@
 .place {
+    display: -ms-grid;
     display: grid;
     gap: 32px;
 }
 
 @media screen and (min-width: 768px) {
     .place {
+        -ms-grid-columns: 47.5% 28px 1fr;
         grid-template-columns: 47.5% 1fr;
+        -ms-grid-rows: auto 48px auto;
         grid-template-rows: repeat(2, auto);
-        column-gap: 28px;
+        -webkit-column-gap: 28px;
+           -moz-column-gap: 28px;
+                column-gap: 28px;
         row-gap: 48px;
+    }
+    .place > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .place > *:nth-child(2) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 3;
+    }
+    .place > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .place > *:nth-child(4) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 3;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
-        column-gap: 32px;
+        -webkit-column-gap: 32px;
+           -moz-column-gap: 32px;
+                column-gap: 32px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
-        column-gap: 40px;
+        -webkit-column-gap: 40px;
+           -moz-column-gap: 40px;
+                column-gap: 40px;
     }
 }

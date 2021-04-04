@@ -1,5 +1,7 @@
 .cover {
     margin-top: 66px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     color: inherit;

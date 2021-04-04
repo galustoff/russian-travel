@@ -14,8 +14,8 @@
         <img class="header__logo" src="images/header-logo.svg" alt="логотип страницы">
         <nav class="header__nav">
             <ul class="header__links-list">
-                <li><a href="#" class="header__lang-link header__lang-link_current">Ru</a></li>
-                <li><a href="#" class="header__lang-link">En</a></li>
+                <li><a href="#" class="header__lang-link header__lang-link_current hovered">Ru</a></li>
+                <li><a href="#" class="header__lang-link hovered">En</a></li>
             </ul>
         </nav>
     </header>
@@ -49,7 +49,10 @@
         </ul>
     </section>
 
-    <section class="photo-grid">
+<!-- Для блока фотографий выбран тег div, т.к. при выборе section валидатор просит
+    проставить в блоке заголовок. -->
+
+    <div class="photo-grid">
         <img src="images/photo-grid-train.jpg" alt="Вид на море из поезда" class="photo-grid__item">
         <img src="images/photo-grid-atharva-tulsi.jpg" alt="Горный пейзаж с высоты" class="photo-grid__item">
         <img src="images/photo-grid-tuman.jpg" alt="Собака на сене" class="photo-grid__item">
@@ -62,14 +65,14 @@
         <img src="images/photo-grid-kamchatka-2.jpg" alt="Камчатская сопка" class="photo-grid__item">
         <img src="images/photo-grid-baikal-2.jpg" alt="Байкал, скала" class="photo-grid__item">
         <img src="images/photo-grid-ergaki.jpg" alt="Национальный парк Ергаки" class="photo-grid__item">
-    </section>
+    </div>
 
     <section class="places">
         <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
-                <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+                <a href="http://park-kosa.ru" class="place__link hovered">park-kosa.ru</a>
             </div>
             <img src="images/place-kosa.jpg" alt="Куршская коса" class="place__image">
             <div class="place__text">
@@ -93,7 +96,8 @@
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
-                <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National
+                <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                    class="place__link hovered">National
                     Geographic</a>
             </div>
             <img src="images/place-kolsky.jpg" alt="Кольский полуостров" class="place__image">
@@ -120,7 +124,7 @@
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
                 <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                    class="place__link">Facebook</a>
+                    class="place__link hovered">Facebook</a>
             </div>
             <img src="images/place-altai.jpg" alt="Алтай" class="place__image">
             <div class="place__text">
@@ -143,7 +147,7 @@
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
-                <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+                <a href="https://vk.com/baikalmile" class="place__link hovered">https://vk.com/baikalmile</a>
             </div>
             <img src="images/place-winter-baikal.jpg" alt="Байкал" class="place__image">
             <div class="place__text">
@@ -165,7 +169,7 @@
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
                 <h4 class="place__url-heading">URL</h4>
-                <a href="http://vodlozero.ru/" class="place__link">http://vodlozero.ru/</a>
+                <a href="http://vodlozero.ru/" class="place__link hovered">http://vodlozero.ru/</a>
             </div>
             <img src="images/place-karelia.jpg" alt="Карелия" class="place__image">
             <div class="place__text">
@@ -195,11 +199,11 @@
 
     <footer class="footer">
         <ul class="footer__link-block">
-            <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-            <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-            <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-            <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-            <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+            <li><a href="https://yandex.ru/maps" class="footer__link hovered">Карты</a></li>
+            <li><a href="https://yandex.ru/pogoda" class="footer__link hovered">Погода</a></li>
+            <li><a href="https://rasp.yandex.ru" class="footer__link hovered">Расписание</a></li>
+            <li><a href="https://calendar.yandex.ru" class="footer__link hovered">Календарь</a></li>
+            <li><a href="https://travel.yandex.ru" class="footer__link hovered">Путешествия</a></li>
         </ul>
         <span class="footer__copyright">© 2021. Даниил Галустов</span>
     </footer>
