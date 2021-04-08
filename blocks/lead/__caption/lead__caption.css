@@ -1,5 +1,4 @@
 .lead__caption {
-    display: block;
     margin: 8px 0 0 16px;
     font-size: 10px;
     line-height: 14px;
@@ -15,12 +14,6 @@
 
 @media screen and (min-width: 1024px) {
     .lead__caption {
-        margin-left: 48px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .lead__caption {
-        margin-left: 148px;
+        margin-left: 0;
     }
 }

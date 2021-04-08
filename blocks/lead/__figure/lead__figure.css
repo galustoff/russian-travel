@@ -1,0 +1,19 @@
+.lead__figure {
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__figure {
+        margin: 0 48px;
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__figure {
+        margin: 0 148px;
+        width: calc(100% - 296px);
+    }
+}
