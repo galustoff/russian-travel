@@ -1,16 +1,13 @@
 .footer {
     margin: 64px 16px 24px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         margin: 88px 24px 24px;
-        -ms-grid-columns: auto 1fr;
-        grid-template-columns: auto 1fr;
+        flex-direction: row;
     }
 }
 
