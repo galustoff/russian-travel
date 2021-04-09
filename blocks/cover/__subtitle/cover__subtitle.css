@@ -5,3 +5,13 @@
     text-align: center;
     white-space: pre-line;
 }
+
+@media screen and (min-width: 768px) {
+    .cover__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+        width: 360px;
+        margin: 0 auto;
+        white-space: normal;
+    }
+}
