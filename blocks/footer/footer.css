@@ -16,3 +16,11 @@
         margin: 92px 48px 24px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

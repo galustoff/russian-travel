@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1280px) {
     .lead__figure {
-        margin: 0 148px;
-        width: calc(100% - 296px);
+        margin: 0 auto;
+        max-width: 984px;
     }
 }

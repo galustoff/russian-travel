@@ -25,6 +25,9 @@
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
+        max-width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
         -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
